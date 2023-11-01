@@ -9,12 +9,15 @@ $git_status\
 [](fg:#394260 bg:#212736)\
 $nodejs\
 $rust\
-$golang\
-$php\
+$python\
 [](fg:#212736 bg:#1d2230)\
+$fill\
 $time\
 [ ](fg:#1d2230)\
 \n$character"""
+
+[fill]
+symbol=" "
 
 [directory]
 style = "fg:#e3e5e5 bg:#769ff0"
@@ -43,17 +46,12 @@ style = "bg:#212736"
 format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
 
 [rust]
-symbol = ""
+symbol = "🦀"
 style = "bg:#212736"
 format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
 
-[golang]
-symbol = ""
-style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
-
-[php]
-symbol = ""
+[python]
+symbol = "🐍"
 style = "bg:#212736"
 format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
 
